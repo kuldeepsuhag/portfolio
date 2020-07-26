@@ -58,14 +58,14 @@
       grid-template-areas: 
       'bioimage'
       'bio'
-      'job1'
+      'title'
       'job2'
-      'job3';
+      'title2'
+      'study1'
+      'study2';
       grid-template-columns: 1fr;
   }
-  .projects{
-    grid-template-columns: repeat(2,1fr);
-}
+  
 }
 
 //SmartPhones
@@ -76,7 +76,7 @@
     }
 
     .projects{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3,1fr);
     }
 }
 
